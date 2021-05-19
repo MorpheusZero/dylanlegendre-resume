@@ -1,0 +1,18 @@
+{
+  "name": "dylanlegendre-resume",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run serve:dev",
+    "build": "npm run clean && npm run compile:css && npm run copy:files",
+    "serve:dev": "npm run build && npx http-server ./dist",
+    "compile:css": "npx node-sass -o dist/content/css --output-style compressed src/content/css/*.scss",
+    "copy:files": "sh build/copy-static-files.sh",
+    "clean": "rm -rf dist && clear"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "node-sass": "^6.0.0",
+    "prettier": "^2.2.1"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1621382572030,
+  "title": "Senior Software Engineer",
+  "experience": [
+    {
+      "name": "SchoolMint",
+      "url": "https://schoolmint.com/",
+      "title": "Senior Software Engineer",
+      "location": "New Orleans, LA",
+      "dates": "January 2021 - Present",
+      "description": "Worked as part of a small team as a Senior Engineer. Used mostly Angular, JQuery, NodeJS, HTML, and SCSS on a daily basis to create and maintain a web application for the education industry. More specifically, I was directly involved in taking an old JQuery Legacy Application and rewriting the features in a modern framework (Angular) as well as rewriting the Node API Services to be standalone as its own project. I helped develop and maintain the automation of the DevOps processes for CI/CD on Google Cloud using CircleCI, Docker, and Kubernetes to aid with builds, deployments, logging, etc."
+    },
+    {
+      "name": "Whetstone Education",
+      "url": "https://whetstoneeducation.com/",
+      "title": "Senior Software Engineer",
+      "location": "New Orleans, LA",
+      "dates": "August 2018 - January 2021",
+      "description": "Worked as part of a small team as a Senior Engineer. Used mostly Angular, JQuery, NodeJS, HTML, and SCSS on a daily basis to create and maintain a web application for the education industry. More specifically, I was directly involved in taking an old JQuery Legacy Application and rewriting the features in a modern framework (Angular) as well as rewriting the Node API Services to be standalone as its own project. I helped develop and maintain the automation of the DevOps processes for CI/CD on Google Cloud using CircleCI, Docker, and Kubernetes to aid with builds, deployments, logging, etc."
+    },
+    {
+      "name": "GE Digital",
+      "url": "https://www.ge.com/digital/",
+      "title": "Software Engineer I",
+      "location": "New Orleans, LA",
+      "dates": "December 2016 - August 2018",
+      "description": "Worked as part of a small team as a junior engineer and later rose to lead front end engineer. Used mostly Angular, HTML, and SCSS on a daily basis to create web solutions on a specific product. Helped maintain DevOps workflows for CI/CD using Jenkins and Docker to automate build processes and deployments. Created the automated test suite that the project used for unit testing, functional testing, and E2E testing. Helped create and maintain a reusable modular framework to help streamline work across the organization. Aided the backend engineers (JAVA & Oracle) where necessary to complete a full stack experience."
+    },
+    {
+      "name": "MarineCFO",
+      "url": "https://www.marinecfo.com/",
+      "title": "Application Developer I",
+      "location": "New Orleans, LA",
+      "dates": "June 2014 - December 2016",
+      "description": "I helped maintain an older legacy application written in VB.NET with a MS-SQL backend that provided accounting, human resources, payroll, inventory, tracking, and other software solutions for the maritime industry. While maintaining our legacy code base, I was simultaneously taking the lead on developing the next generations of the product using Windows Presentation Foundation (WPF) whereas it was written mostly in C# with a local SQLite backend. The backend was meant to store data locally in an offline scenario and when connections occurred, it would sync the local DB data to a MS-SQL DB hosted on Microsoft Azure in the cloud. This application was built to be hosted on a desktop that lived on maritime vessels, so the vessels would sometimes not have great satellite coverage which would disrupt their internet connectivity."
+    }
+  ]
+}
