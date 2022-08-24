@@ -45,6 +45,27 @@ $(() => {
   };
 
   /**
+   * Displays a console welcoming message with my name and link to my Github.
+   * This is mostly for fun, and to let potential technical managers know that
+   * I know what they are looking at :)
+   */
+  const showConsoleMessage = () => {
+    console.info(`
+👋 WELL HEY THERE! 👋
+    
+Thanks for checking out my code! I'm Dylan Legendre, and I could be your next Systems Architect or DevOps Engineer!
+
+If you are interested in checking out my source code--or just want to chat on LinkedIn--please check out my links below! 
+
+https://www.github.com/MorpheusZero
+
+http://www.linkedin.com/in/dylan-legendre-9733ab65
+
+❤️ Dylan Legendre
+    `);
+  };
+
+  /**
    * Run this function when the app starts.
    */
   const init = () => {
@@ -54,6 +75,7 @@ $(() => {
     $("#myAge").text(calcAge("09-05-1990"));
     // Set the value of currentYear
     $("#currentYear").text(new Date().getFullYear().toString());
+    showConsoleMessage();
   };
 
   /**
