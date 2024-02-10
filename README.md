@@ -1,3 +1,2 @@
-# dylanlegendre-resume
-
+# Dylan Legendre Resume
 
