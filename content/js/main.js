@@ -1,6 +1,6 @@
 /**
  * ############################
- *                AppJS
+ *            AppJS
  *      by Dylan Legendre
  * https://www.dylanlegendre.com/
  *
